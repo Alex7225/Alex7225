@@ -3,7 +3,7 @@ public class Main {
 
         var print = new Print();
 
-        print.printValue();
+        System.out.println(print.printValue());
 
     }
 }

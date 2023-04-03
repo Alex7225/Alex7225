@@ -1,10 +1,10 @@
 public class Print {
 
-    public int v =25;
+    public int value =25;
 
-    public void printValue(){
-        String newValue = String.format("---<Return value = "+ v + ">---");
-        System.out.println(newValue);
+    public String printValue(){
+
+        return String.format("---<Return value = "+ value + ">---");
 
     }
 
